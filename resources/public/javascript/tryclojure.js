@@ -1,10 +1,10 @@
 var currentPage = -1;
 var pages = [
-			"page1",
-			"page2",
-			"page3",
-			"page4",
-			"page5",
+			"start",
+			"first_instruction",
+			"arithmetics",
+			"rationals",
+			"variable_args",
 			"page6",
 			"page7",
 			"page8",
