@@ -4,7 +4,6 @@ var pages = [
 			"first_instruction",
 			"arithmetics",
 			"rationals",
-			"variable_args",
 			"page6",
 			"page7",
 			"page8",
@@ -18,16 +17,13 @@ var pageExitConditions = [
         verify: function(data) { return false; }
     },
     {
-        verify: function(data) { return data.expr == "(+ 3 3)"; }
+        verify: function(data) { return data.expr == "(+ 3 2)"; }
     },
     {
         verify: function(data) { return data.expr == "(/ 10 3)"; }
     },
     {
-        verify: function(data) { return data.expr == "(/ 10 3.0)"; }
-    },
-    {
-        verify: function(data) { return data.expr == "(+ 1 2 3 4 5 6)"; }
+        verify: function(data) { return data.expr == "(/ 100 4 5)"; }
     },
     {
         verify: function (data) { return data.expr == "(defn square [x] (* x x))"; }
